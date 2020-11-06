@@ -14,7 +14,7 @@ public class StringCharAt {
         char last=str.charAt(7);
         System.out.println(last);//k
 
-        System.out.println(str.charAt(100));// error--->
+        //System.out.println(str.charAt(100));// error--->
         //--->
 
 

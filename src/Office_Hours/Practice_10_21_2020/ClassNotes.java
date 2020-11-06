@@ -1,11 +1,13 @@
 package Office_Hours.Practice_10_21_2020;
 
 public class ClassNotes {
+    public static void main(String[] args) {
 
-    /*
+        /*
     10/21/2020
-    Practice Topics: Scanner
-    subbpackage: Practice_10_21_2020
+Practice Topics: Scanner
+Create a package named: Office_Hours
+subbpackage: Office_Hours.Practice_10_21_2020
 package settings:
 			1. folders always on the top
 			2. group tabs
@@ -37,5 +39,5 @@ Task:
 7. ask company name  ( nextLine() )
      */
 
-
+    }
 }

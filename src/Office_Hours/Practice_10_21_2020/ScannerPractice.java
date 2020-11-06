@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ScannerPractice {
     public static void main(String[] args) {
 
+
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your score: ");
 
@@ -35,12 +36,6 @@ public class ScannerPractice {
         }
 
         System.out.println(grade);
-
-
-
-
-
-
 
     }
 }

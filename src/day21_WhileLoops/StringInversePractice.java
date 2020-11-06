@@ -1,10 +1,11 @@
-package day20_ForLoop;
+package day21_WhileLoops;
 
 import java.util.Scanner;
 
 public class StringInversePractice {
     public static void main(String[] args) {
 
+/*
         Scanner input=new Scanner(System.in);
         String word= input.nextLine();
 
@@ -12,9 +13,13 @@ public class StringInversePractice {
             String newword=word.substring(i-1,i);
             System.out.print(newword);
         }
-        /*
+*/
+
+        System.out.println("========================\n\n");
+
+
         Scanner input=new Scanner(System.in);
-       System.out.print("Enter a string:")
+       System.out.print("Enter a string:");
         String word= input.nextLine();
 
         String reverseword="";
@@ -25,18 +30,8 @@ public class StringInversePractice {
          }
          System.out.print(reverseword);
 
-          boolean ispalindrome=word.equals(reservedword);
-          System.out.print(ispalindrome);
-
-
-
-         */
-        //
-        //
-
-
-
-
+          boolean ispalindrome=word.equals(reverseword);
+          System.out.println(ispalindrome);
 
 
 

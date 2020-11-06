@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ScannerPractice3 {
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+        Scanner  scan = new Scanner(System.in);
 
         System.out.println("Enter your gender: ");
         String gender = scan.next();  // Female
@@ -36,7 +36,6 @@ public class ScannerPractice3 {
 
         System.out.println("Enter your address: ");
         String address = scan.nextLine();
-
 
 
     }

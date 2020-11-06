@@ -58,6 +58,15 @@ public class StringMethod {
         System.out.println("===============================================");
 
 
+        String ta="A";
+        ta=ta.concat("B");
+        String tb="C";
+        ta=ta+tb;
+        ta.replace('C','D');
+        ta=ta+tb;
+        System.out.println(ta);
+
+
 
 
 
