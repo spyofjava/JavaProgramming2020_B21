@@ -5,15 +5,37 @@ import java.util.Arrays;
 public class Empty {
     public static void main(String[] args) {
 
-        String[] n={"a","b","cd"};
-        System.out.println(n[1]);
-        System.out.println(n[0]);
-        System.out.println(n[2]);
-        System.out.println(Arrays.toString(n));
+
+        String[][] batch21 = {
+                {"Lily","Lana","Igor"} ,   //0
+
+                {"Polina", "Serhii", "Abdujilil", "Aziz", "Halzat" } ,  //1
+
+                {"Justyna", "Adil","Ercan","Irina","Med", "Olesea","Vlad","Asuman","Guvanch"},//2
+
+        };
+
+        for (int i=0;i<batch21.length;i++){
+            System.out.println(Arrays.toString(batch21[i]));
+            for (int j=batch21[i].length-1;j>=0;j--){
+                System.out.println(batch21[i][j]);
+            }
+        }
 
 
-        String m="asdfadsfasdd";
-        String [] k=m.split("");
-        System.out.println(Arrays.toString(k));
+
+
+        for (int i=0;i<batch21.length;i++){
+            System.out.println(Arrays.toString(batch21[i]));
+            for (int j=batch21[i].length-1;j>=0;j--){
+                for (int k=batch21[i][j].length()-1;k>=0;k--){
+                    System.out.print(batch21[i][j].charAt(k));
+                }
+                System.out.println();
+
+            }
+        }
+
+
     }
 }
