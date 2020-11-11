@@ -15,6 +15,7 @@ public class Empty {
 
         };
 
+
         for (int i=0;i<batch21.length;i++){
             System.out.println(Arrays.toString(batch21[i]));
             for (int j=batch21[i].length-1;j>=0;j--){
