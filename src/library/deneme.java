@@ -56,31 +56,31 @@ public class deneme {
         Scanner scanner = new Scanner(System.in);
         System.out.println("How many number do you want to give?: ");
         int howmanynumber = scanner.nextInt();
-        int[] numbers=new int[howmanynumber];
-        for (int i=0;i<howmanynumber;i++){
-            numbers[i]+=scanner.nextInt();
+        int[] numbers = new int[howmanynumber];
+        for (int i = 0; i < howmanynumber; i++) {
+            numbers[i] += scanner.nextInt();
         }
-        int total=0;
-        for (int each:numbers){
-            total+=each;
+        int total = 0;
+        for (int each : numbers) {
+            total += each;
         }
-        double average=total/howmanynumber;
+        double average = total / howmanynumber;
         return average;
 
     }
 
-    public static String reverse(String str){
-        String reverse="";
-        for (int i=str.length()-1;i>=0;i--){
-            reverse+=str.charAt(i);
+    public static String reverse(String str) {
+        String reverse = "";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            reverse += str.charAt(i);
         }
         return reverse;
     }
 
-    public static int [] decending(int []arr){
-        int[] decend=new int[arr.length];
-        for (int i=arr.length-1,j=0;i>=0;j++,i--){
-            decend[j]=arr[i];
+    public static int[] decending(int[] arr) {
+        int[] decend = new int[arr.length];
+        for (int i = arr.length - 1, j = 0; i >= 0; j++, i--) {
+            decend[j] = arr[i];
         }
         return decend;
     }
