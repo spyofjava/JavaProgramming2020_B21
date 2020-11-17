@@ -9,7 +9,7 @@ public class MethodCalls {
         String str = "Level";
 
         String reversedName = StringUtility.reverse(str);
-        System.out.println( str.equalsIgnoreCase(reversedName)  );
+        System.out.println(str.equalsIgnoreCase(reversedName));
 
 
         String str2 = "aaabbbbbccccccdddddeeeeee";
@@ -29,33 +29,33 @@ public class MethodCalls {
 
         int[] descending = ArraysUtility.sort(array);
 
-        System.out.println(Arrays.toString(descending)  );
-        System.out.println( ArraysUtility.printArray(descending)  );
+        System.out.println(Arrays.toString(descending));
+        System.out.println(ArraysUtility.printArray(descending));
 
         System.out.println("======================\n\n");
 
         int a = deneme.max(array);
         System.out.println(a);
 
-        int b= deneme.min(array);
+        int b = deneme.min(array);
         System.out.println(b);
 
 
-        int f=deneme.Faktorial();
+        int f = deneme.Faktorial();
         System.out.println(f);
 
 
-        int d=deneme.total(3,67);
+        int d = deneme.total(3, 67);
         System.out.println(d);
 
-        double av=deneme.average();
+        double av = deneme.average();
         System.out.println(av);
 
-        String t=deneme.reverse("how are you");
+        String t = deneme.reverse("how are you");
         System.out.println(t);
 
-        int [] arr={1,2,3,4,5};
-        int[] v=deneme.decending(arr);
+        int[] arr = {1, 2, 3, 4, 5};
+        int[] v = deneme.decending(arr);
         System.out.println(Arrays.toString(v));
 
 
