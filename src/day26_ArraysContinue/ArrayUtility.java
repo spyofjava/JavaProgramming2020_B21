@@ -2,7 +2,7 @@ package day26_ArraysContinue;
 
 import java.util.Arrays;
 
-public class ArraysUtility {
+public class ArrayUtility {
     public static void main(String[] args) {
 
 
