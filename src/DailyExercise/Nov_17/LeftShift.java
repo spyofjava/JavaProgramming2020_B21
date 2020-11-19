@@ -1,4 +1,4 @@
-package DailyExercise;
+package DailyExercise.Nov_17;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -29,8 +29,6 @@ public class LeftShift {
             System.out.println(Arrays.toString(nums2));
 
         }
-
-
 
     }
 }
