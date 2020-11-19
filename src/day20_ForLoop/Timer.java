@@ -17,6 +17,7 @@ public class Timer {
                 System.out.print("\r"+ (i-1)+" minutes and "+z+" seconds left");
                 Thread.sleep(2000);
             }
+
         }
 
         System.out.println("\n\n");
