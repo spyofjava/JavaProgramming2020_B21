@@ -9,11 +9,17 @@ public class warmUp {
 
         int[] arr={1,2,3,4,5,6};
         double[] arr2={1.5,2.5,3.5,4.5,5.5,6.5};
+        String [] arr3={"ali","veli","can"};
+        char[] arr4={'a','b','c'};
         ArraysUtility.addElement(arr,7);
         ArraysUtility.addElement(arr2,7.5);
+        ArraysUtility.addElement(arr3,"java");
+        ArraysUtility.addElement(arr4,'x');
 
         System.out.println(Arrays.toString(arr2));
         System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr3));
+        System.out.println(Arrays.toString(arr4));
     }
 
     //                                  (1,2,3,4,5}    6
