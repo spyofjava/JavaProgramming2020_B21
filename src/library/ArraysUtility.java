@@ -58,4 +58,30 @@ public class ArraysUtility {
         str = str.replace("[", "{").replace("]", "}");
         return str;
     }
+
+    public static int[] addElement(int[] array, int number) {
+        int[] result = new int[array.length + 1];
+
+        for (int i = 0; i < array.length; i++) {
+
+            result[i] = array[i];
+        }
+
+        result[result.length-1]=number;
+        return result;
+    }
+
+    public static double[] addElement(double[] array2, double number) {
+        double[] result = new double[array2.length];
+
+        for (int i = 0; i < array2.length; i++) {
+
+            result[i] = array2[i];
+        }
+
+        result[result.length-1]=number;
+        return result;
+    }
+
+
 }
