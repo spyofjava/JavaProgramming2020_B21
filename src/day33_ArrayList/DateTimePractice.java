@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 
-public class WarmUp {
+public class DateTimePractice {
     public static void main(String[] args) {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("E, hh:mm a, MMMM/dd/yyyy");
 
@@ -89,3 +89,5 @@ public class WarmUp {
        create an array of LocalDate and store their DofB
        find out who is youngest and oldest
  */
+
+
