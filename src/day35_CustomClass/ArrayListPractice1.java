@@ -35,7 +35,7 @@ public class ArrayListPractice1 {
         LocalDate d1 = LocalDate.of(2016, 8, 15);
         ArrayList<LocalDate> dates = new ArrayList<>( Arrays.asList(arr1) );
         dates.removeIf( p ->  p.isBefore(d1) );
-
+//
         DateTimeFormatter df = DateTimeFormatter.ofPattern("MMM-dd-yyyy, EEE");
 
         for(LocalDate each : dates){
