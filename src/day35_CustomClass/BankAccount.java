@@ -21,7 +21,7 @@ public class BankAccount {
         System.out.println("Available Balance: $"+availableBalance);
         System.out.println("============================================");
     }
-
+//
     public void deposit(double amount){
         availableBalance += amount;
     }
