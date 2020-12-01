@@ -10,7 +10,7 @@ public class Dog {
     public String color;
     public LocalDate DOB;
     public int age;
-
+//
     // sets the instance variables of dog objects
     public void setInfo(String dogNickName, String dogBreed, String dogSize, char dogGender, String dogColor, LocalDate dogDOB){
         nickName = dogNickName;
