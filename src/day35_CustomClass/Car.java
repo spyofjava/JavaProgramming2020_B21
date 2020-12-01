@@ -18,7 +18,7 @@ public class Car {
     public void getInfo(){
         System.out.println(year+" "+brand+" "+model+" "+color+" $"+price);
     }
-
+//
 }
 /*
 Car class:
