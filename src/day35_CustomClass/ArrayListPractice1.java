@@ -41,7 +41,7 @@ public class ArrayListPractice1 {
         for(LocalDate each : dates){
             System.out.println(each.format(df));
         }
-
+//
 
 
     }

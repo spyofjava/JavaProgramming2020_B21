@@ -6,7 +6,7 @@ public class Car {
     public String color;
     public int year;
     public double price;
-
+//
     public void setInfo(String carBrand, String carModel, String carColor, int carYear, double carPrice){ // Instance methods
         brand =  carBrand;
         model = carModel;

@@ -12,7 +12,7 @@ public class BankAccount {
         accountName = acctName;
         accountNumber = acctNumber;
     }
-
+//
     public void getInfo(){
         System.out.println("============================================");
         System.out.println("Date: "+ LocalDate.now());
