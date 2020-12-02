@@ -1,7 +1,4 @@
 package day35_CustomClass;
-
-
-
 import java.util.ArrayList;
 import java.util.Arrays;
 
