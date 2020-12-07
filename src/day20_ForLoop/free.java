@@ -2,34 +2,29 @@ package day20_ForLoop;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.Scanner;
 
 public class free {
 
-
     public static void main(String[] args) {
-        System.out.println(simpleRoomBook(true,7,2,2018));
+
+        System.out.println(clean("one two three","two"));
     }
 
-    public static  boolean simpleRoomBook(boolean isAvailable,int month, int day, int year){
 
-        DateTimeFormatter dtf= DateTimeFormatter.ofPattern("MM/dd/yyyy");
-        LocalDate start=LocalDate.of(2018,7,1);
-        LocalDate finish=LocalDate.of(2018,7,8);
-        LocalDate date= LocalDate.of(year,month,day);
 
-        String  b=start.format(dtf);
-        System.out.println(finish.format(dtf));
-        System.out.println(date.format(dtf));
+    public static String clean (String text ,String badWord) {
+        ArrayList<String> list=new ArrayList<>(Arrays.asList(text.split(" ")));
+        list.removeAll(Arrays.asList(badWord));
+        return list.toString().substring(1).replace(",","").replaceFirst("]","");
 
-        if (isAvailable==true) {
-            if (date.isBefore(start) || date.isAfter(finish)) {
-                return (true);
-            } else {
-                return (false);
-            }
-        }else {
-            return false;
-        }
+
+
     }
+
+
+
 }
