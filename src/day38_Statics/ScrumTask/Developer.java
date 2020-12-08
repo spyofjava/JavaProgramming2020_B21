@@ -40,3 +40,11 @@ public class Developer {
 
 
 }
+/*
+create a class called Developer
+					Attributes:
+						name, employeeID, JobTitle, Salary
+						hasCodingSkills,
+					Actions:
+						setInfo(), coding(),  fixingBug(), toString()
+ */
