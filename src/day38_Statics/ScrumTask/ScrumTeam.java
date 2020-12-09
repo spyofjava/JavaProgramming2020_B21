@@ -45,7 +45,6 @@ public class ScrumTeam {
                 +", Total Number of Developers: "+developersTeam.size();
     }
 
-
 }
 /*
 create a class called ScrumTeam
