@@ -44,7 +44,6 @@ public class ScrumTeam {
         return "PO: "+PO+", BA: "+BA+", SM: "+SM+", Total Numbers of Testers: "+testersTeam.size()
                 +", Total Number of Developers: "+developersTeam.size();
     }
-
 }
 /*
 create a class called ScrumTeam
