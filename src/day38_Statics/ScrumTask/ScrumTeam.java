@@ -20,7 +20,6 @@ public class ScrumTeam {
     public void addTester(Tester tester){
         testersTeam.add(tester);
     }
-
     public void addTester(Tester[] testers){
         testersTeam.addAll(  Arrays.asList(testers) );
     }
