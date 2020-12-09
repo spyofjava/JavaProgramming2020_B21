@@ -27,7 +27,6 @@ public class ScrumTeam {
     public void removeTester(String ID){
         testersTeam.removeIf( p -> p.ID.equalsIgnoreCase(ID) );
     }
-
     public void addDeveloper(Developer developer){
         developersTeam.add(developer);
     }
