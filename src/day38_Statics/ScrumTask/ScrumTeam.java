@@ -37,6 +37,7 @@ public class ScrumTeam {
     public void addDeveloper(Developer[] developers){
         developersTeam.addAll( Arrays.asList(developers)  );
     }
+
     public void removeDeveloper(String ID){
         developersTeam.removeIf( p -> p.ID.equalsIgnoreCase( ID) );
     }
