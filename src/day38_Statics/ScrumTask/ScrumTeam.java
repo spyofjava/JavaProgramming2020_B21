@@ -17,7 +17,6 @@ public class ScrumTeam {
         this.BA = BA;
         this.SM = SM;
     }
-
     public void addTester(Tester tester){
         testersTeam.add(tester);
     }
