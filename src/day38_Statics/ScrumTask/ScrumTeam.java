@@ -29,7 +29,6 @@ public class ScrumTeam {
     public void addDeveloper(Developer developer){
         developersTeam.add(developer);
     }
-
     public void addDeveloper(Developer[] developers){
         developersTeam.addAll( Arrays.asList(developers)  );
     }
