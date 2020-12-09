@@ -1,7 +1,9 @@
 package day38_Statics.ScrumTask;
 
-public class Tester {
 
+
+
+public class Tester {
 
     public String name, ID, jobTitle, companyName;
     public double salary;
@@ -24,7 +26,6 @@ public class Tester {
         System.out.println(name+" is creating ticket");
     }
 
-
     public String toString() {
         return "Tester{" +
                 "name='" + name + '\'' +
@@ -35,4 +36,9 @@ public class Tester {
                 ", gender=" + gender +
                 '}';
     }
+
+
+
+
+
 }
