@@ -23,16 +23,18 @@ public class ScrumTeam {
     public void addTester(Tester[] testers){
         testersTeam.addAll(  Arrays.asList(testers) );
     }
+
     public void removeTester(String ID){
         testersTeam.removeIf( p -> p.ID.equalsIgnoreCase(ID) );
     }
+
     public void addDeveloper(Developer developer){
         developersTeam.add(developer);
     }
+
     public void addDeveloper(Developer[] developers){
         developersTeam.addAll( Arrays.asList(developers)  );
     }
-
     public void removeDeveloper(String ID){
         developersTeam.removeIf( p -> p.ID.equalsIgnoreCase( ID) );
     }
