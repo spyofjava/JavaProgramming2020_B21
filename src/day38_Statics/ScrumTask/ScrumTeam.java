@@ -46,7 +46,6 @@ public class ScrumTeam {
     }
 
 
-
 }
 /*
 create a class called ScrumTeam
