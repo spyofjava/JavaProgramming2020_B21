@@ -69,6 +69,7 @@ public class PizzaOrder {
             sum  += eachPizza.totalPrice;
         }
 
+
         System.out.println(sum);
 
     }
