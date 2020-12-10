@@ -2,7 +2,6 @@ package Office_Hours.Practice_12_09_2020;
 
 public class Pizza {
 
-
     public String size;
     public int cheeseTopping, pepperoniTopping;
     public double priceOfPizza, tips, totalPrice;
@@ -16,7 +15,7 @@ public class Pizza {
         // tips = tips/100; //  converting percentage to decimal
 
         this.tips = tips/100 * priceOfPizza;
-        totalPrice = priceOfPizza +  this.tips;
+        totalPrice = priceOfPizza +  this.tips + (priceOfPizza * 0.08); // including tax
 
     }
 

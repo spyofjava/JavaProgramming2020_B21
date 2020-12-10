@@ -6,19 +6,18 @@ public class CybertekStudents {
     public int age;
     public char gender;
 
-
-    public static String schoolName = "Cybertek School", dreamJob = "SDET";
+    public static String schoolName = "Cybertek School" , dreamJob = "SDET";
     public static boolean hasReplIt = true, hasFlipGrid = true;
 
-    public  void setInfo(String name, int age, char gender){
-        this.name=name;
-        this.age=age;
-        this.gender=gender;
-
+    public void setInfo(String name, int age, char gender){
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
     }
 
     public String toString(){
-        return  "Name: "+name+", Age: "+age+", Gender: "+gender+", School Name: "+schoolName+", Dream Job: "+dreamJob+", Has Repl.it: "+hasReplIt+", Has FlipGrid: "+hasFlipGrid;
+        return "Name: "+name+", Age: "+age +", GenderL: "+gender+", School Name: "+schoolName
+                +", Has Repl.it: "+hasReplIt+", Has FlipGrid: "+hasFlipGrid+", dream job: "+dreamJob;
     }
 
 

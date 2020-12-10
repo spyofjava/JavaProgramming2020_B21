@@ -47,30 +47,25 @@ public class PizzaOrder {
             Pizza medium = new Pizza();
             medium.customizeOrder("Medium",2, 3, 18);
 
-
             Pizza large = new Pizza();
             large.customizeOrder("Large",3, 4, 18);
-
 
             Pizza small = new Pizza();
             small.customizeOrder("small", 1, 2, 18);
 
-
             pizzas.addAll(Arrays.asList(small, medium, large)  );
-
 
         }
 
         System.out.println("Number of Pizza: "+pizzas.size());
-
 
         double sum = 0;
         for(Pizza eachPizza : pizzas  ){
             sum  += eachPizza.totalPrice;
         }
 
-
         System.out.println(sum);
+
 
     }
 }
