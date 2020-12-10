@@ -1,4 +1,4 @@
-package day39_Constructor;
+package day_39StaticBlock;
 
 import day37_CustomClass.Employee;
 
