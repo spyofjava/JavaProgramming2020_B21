@@ -10,6 +10,11 @@ public class Test {
         System.out.println(StaticBlocks.b);
         System.out.println(StaticBlocks.isEmployeed);
 
+        StaticBlocks.company = "Bank Of America";
+
+        System.out.println(StaticBlocks.company );
+
+
 
 
     }
