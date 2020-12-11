@@ -34,29 +34,7 @@ public class MethodCalls {
 
         System.out.println("======================\n\n");
 
-        int a = deneme.max(array);
-        System.out.println(a);
 
-        int b = deneme.min(array);
-        System.out.println(b);
-
-
-        int f = deneme.Faktorial();
-        System.out.println(f);
-
-
-        int d = deneme.total(3, 67);
-        System.out.println(d);
-
-        double av = deneme.average();
-        System.out.println(av);
-
-        String t = deneme.reverse("how are you");
-        System.out.println(t);
-
-        int[] arr = {1, 2, 3, 4, 5};
-        int[] v = deneme.decending(arr);
-        System.out.println(Arrays.toString(v));
 
 
     }

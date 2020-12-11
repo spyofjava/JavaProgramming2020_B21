@@ -1,4 +1,4 @@
-package day_39StaticBlock;
+package day39_StaticBlock;
 
 //import library.Data;  // imports everything that are static or non static
 
