@@ -3,7 +3,6 @@ package day40_Constructor;
 import java.text.DecimalFormat;
 
 public class SalaryCalculator {
-
     public static int numberOfWorkingDays, numberOfWeeks;
     public double weeklyHours, hourlyRate, stateTaxRate, federalTaxRate, salary, salaryAfterTax, totalTax;
 
@@ -42,7 +41,5 @@ public class SalaryCalculator {
                 ", totalTax= $" + df.format(totalTax) +
                 '}';
     }
-
-
 
 }

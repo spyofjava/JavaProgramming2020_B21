@@ -19,23 +19,31 @@ public class Mysalaries {
 
         // print the maximum salary after tax
 
-
         ArrayList<SalaryCalculator> salaries = new ArrayList<>();
-        salaries.addAll(Arrays.asList(salary1, salary2, salary3, salary4, salary5));
+        salaries.addAll( Arrays.asList( salary1,salary2,salary3, salary4, salary5 ) );
 
         double maxSalaryAfterTax = salaries.get(0).salaryAfterTax;
         double minSalaryAfterTax = salaries.get(0).salaryAfterTax;
-        for (SalaryCalculator each : salaries) {
-            maxSalaryAfterTax = Math.max(each.salaryAfterTax, maxSalaryAfterTax);
-            minSalaryAfterTax = Math.min(each.salaryAfterTax,minSalaryAfterTax);
-            System.out.println(each.salaryAfterTax);
 
+        double maxTotalTax = salaries.get(0).totalTax;
+        double minTotalTax = salaries.get(0).totalTax;
+
+        for( SalaryCalculator each : salaries){
+            maxSalaryAfterTax =Math.max(each.salaryAfterTax ,  maxSalaryAfterTax);
+            minSalaryAfterTax = Math.min(each.salaryAfterTax, minSalaryAfterTax);
+
+            maxTotalTax = Math.max( each.totalTax, maxTotalTax);
+            minTotalTax = Math.min(each.totalTax, minTotalTax);
         }
 
-        System.out.println("Max: "+ maxSalaryAfterTax);
-        System.out.println("Min: "+ minSalaryAfterTax);
 
-        System.out.println("=================================================================");
+        System.out.println("Max salary after tax: "+maxSalaryAfterTax);
+        System.out.println("Min salary after tax: "+minSalaryAfterTax);
+
+        System.out.println("Max total tax: "+maxTotalTax);
+        System.out.println("Min total tax: "+minTotalTax);
+
+
 
     }
 }
