@@ -12,7 +12,6 @@ public class Data {
 
     }
 
-
     public static void publicMethod(){
         System.out.println("Public Method");
     }
@@ -24,6 +23,5 @@ public class Data {
     static void defaultMethod(){
         System.out.println("default Method");
     }
-
 
 }
