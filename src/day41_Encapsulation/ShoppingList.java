@@ -2,7 +2,7 @@ package day41_Encapsulation;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-
+///////////////////////////////////////  ----  1  ----  /////////////////////////
 public class ShoppingList {
     public static void main(String[] args) {
 

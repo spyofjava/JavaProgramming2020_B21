@@ -1,5 +1,5 @@
 package day41_Encapsulation;
-
+///////////////////////////////////////  ----  1  ----  /////////////////////////
 public class Item {
 
     public String name;

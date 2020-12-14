@@ -1,5 +1,5 @@
 package day41_Encapsulation;
-
+///////////////////////////////////////  ----  2  ----  /////////////////////////
 public class Data {
 
     public static String publicVariable = "A";
