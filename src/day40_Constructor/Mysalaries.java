@@ -17,6 +17,7 @@ public class Mysalaries {
         SalaryCalculator salary5 = new SalaryCalculator(50, 70, 9, 22);
 
 
+
         // print the maximum salary after tax
 
         ArrayList<SalaryCalculator> salaries = new ArrayList<>();
@@ -44,6 +45,14 @@ public class Mysalaries {
         System.out.println("Min total tax: "+minTotalTax);
 
 
-
+        System.out.println(salary1);
+        System.out.println("+=============");
+        System.out.println(salary2);
+        System.out.println("==============");
+        System.out.println(salary3);
+        System.out.println("==============");
+        System.out.println(salary4);
+        System.out.println("==============");
+        System.out.println(salary5);
     }
 }
