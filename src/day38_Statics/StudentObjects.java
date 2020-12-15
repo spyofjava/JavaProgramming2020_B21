@@ -27,6 +27,9 @@ public class StudentObjects {
         student2.getSchoolInfo();// not prefer
         student3.getSchoolInfo();// not prefer
 
+        CybertekSdudent.getSchoolInfo();
+
+
 
 
 

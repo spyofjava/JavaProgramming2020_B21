@@ -5,10 +5,16 @@ public class Iphone {
     public String model, color, storage;
     public double price;
 
+
     public static String brand = "Apple" , OS = "iOS" , madeIn = "China" ;
 
     public void call(long phoneNumber){
         System.out.println("Iphone "+model+" is calling "+phoneNumber);
+    }
+
+
+    public static void model(){
+        System.out.println("11 Pro Max");
     }
 
     public static void getInfo(){

@@ -21,6 +21,13 @@ public class IphoneObject {
         System.out.println("============================");
         Iphone.getInfo();
 
+        phone1.model();
+
+        Iphone.model();
+
+        //Iphone.call(021654651); it gives an error because it isn't static. static is called from static
+
+        phone1.call(021564132);
 
     }
 }
