@@ -1,7 +1,8 @@
 package day38_Statics;
 
 public class SalaryCalculator {
-    public double hourlyRate, weeklyHours, stateTaxRate, federalTaxRate, salary, salaryAfterTax;
+    public double hourlyRate, weeklyHours, stateTaxRate,
+                  federalTaxRate, salary, salaryAfterTax;
 
     public void setInfo(double hourlyRate, double weeklyHours, double stateTaxRate, double federalTaxRate ){
         this.hourlyRate = hourlyRate;
