@@ -1,8 +1,13 @@
 package DailyExercise.Dec_14_StaticBlock;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class salaryCalculator {
 
     public double hourlyRate,weeklyHours,federalTaxRate,stateTaxRate,salary,salaryAfterTax;
+    public ArrayList<salaryCalculatorObjects> salarylist=new ArrayList();
+
 
     public void setInfo(double hourlyRate,double weeklyHours,double stateTaxRate,double federalTaxRate){
         if (stateTaxRate>1){
@@ -18,6 +23,7 @@ public class salaryCalculator {
         this.federalTaxRate=federalTaxRate;
         salary=calculateSalary();
         salaryAfterTax=calculatesalaryAfterTax();
+        this.salarylist=salarylist;
     }
 
     public double calculateSalary(){
@@ -36,7 +42,8 @@ public class salaryCalculator {
         return (calculateSalary()-calculateTotalTax());
     }
 
-    @Override
+
+
     public String toString() {
         return  "\nhourlyRate= " + hourlyRate +
                 "\nweeklyHours= " + weeklyHours +

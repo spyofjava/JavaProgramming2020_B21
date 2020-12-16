@@ -38,8 +38,23 @@ public class salaryCalculatorObjects {
         System.out.println("=======================");
 
         for (salaryCalculator each:salarylist){
-            System.out.println(each.weeklyHours);
+            System.out.println(each);
         }
+
+
+        double min = salarylist.get(0).salary;
+        double max = salarylist.get(0).salary;
+        for (salaryCalculator each:salarylist){
+            if (each.salary > max) {
+                max = each.salary;
+            }
+            if (each.salary < min) {
+                min = each.salary;
+            }
+        }
+
+        System.out.println("Minimum salary: "+min);
+        System.out.println("Maximum salary: "+max);
 
 
     }
