@@ -51,6 +51,7 @@ public class StringUtility {
         return result;
     }
 
+
     public static int frequencyOfWord(String sentence,String word){
         sentence=sentence.toLowerCase();
         word=word.toLowerCase();

@@ -2,12 +2,14 @@ package day39_StaticBlock;
 
 //import library.Data;  // imports everything that are static or non static
 
+import static library.ArraysUtility.*;
+
 import static library.Data.data1;
 import static library.Data.data2;
 
 import static library.Data.*;
 
-import static library.ArraysUtility.*;
+
 
 public class Test {
 
@@ -33,6 +35,8 @@ public class Test {
         int[] arr = {1,2,3,4,5,6};
         int max = max(arr);
         int min = min(arr);
+
+        System.out.println(max);
 
 
 
