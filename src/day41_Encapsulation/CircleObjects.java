@@ -9,14 +9,13 @@ public class CircleObjects {
         // System.out.println(c1.area);
         System.out.println(c1.getDiameter());
         System.out.println(c1.getArea());
-        System.out.println(c1.getPerimeter() );
+        System.out.println(c1.getPerimeter());
 
         System.out.println("=======================");
         c1.setRadius(5);
         System.out.println(c1.getDiameter());
         System.out.println(c1.getArea());
         System.out.println(c1.getPerimeter() );
-
 
     }
 
