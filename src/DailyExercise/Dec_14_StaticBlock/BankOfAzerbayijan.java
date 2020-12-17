@@ -17,5 +17,7 @@ public class BankOfAzerbayijan {
         employees.add(HumanResources.employee4);
         employees.add(HumanResources.employee5);
         System.out.println(Arrays.asList(employees));
+
+        System.out.println(employees.get(0));
     }
 }
