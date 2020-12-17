@@ -10,6 +10,7 @@ public class Carpet {
         this.length=length;
         this.unitPrice=unitPrice;
         this.ispersian=ispersian;
+
     }
 
     public double calcCost(){
