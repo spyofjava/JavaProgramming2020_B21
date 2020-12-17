@@ -1,6 +1,5 @@
 package DailyExercise.Dec_14_StaticBlock;
 import day37_CustomClass.Employee;
-
 public class HumanResources {
 
     public static Employee employee1,employee2,employee3,employee4,employee5;
