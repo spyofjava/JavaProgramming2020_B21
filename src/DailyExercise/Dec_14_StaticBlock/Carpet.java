@@ -4,7 +4,6 @@ public class Carpet {
     public double width,length,unitPrice;
     public boolean ispersian;
 
-
     public void setInfo(double width,double length,double unitPrice,boolean ispersian){
         this.width=width;
         this.length=length;
