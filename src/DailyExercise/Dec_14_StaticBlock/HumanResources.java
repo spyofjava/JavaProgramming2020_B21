@@ -6,7 +6,6 @@ public class HumanResources {
 
     public static Employee employee1,employee2,employee3,employee4,employee5;
 
-
     static {
         employee1=new Employee();
         employee2=new Employee();
