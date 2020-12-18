@@ -2,9 +2,9 @@ package day07_UnaryOperators;
 
 public class PrimitiveCastings {
     public static void main(String[] args) {
-        double x = 2.5;
-        double y = x;//int y !=double x
-        // double>float>long>int>short>byte
+        double x = 2.5;                                 //  double > int >
+        double y = x;//int y !=double x                 //  long  >  short
+        // double>float>long>int>short>byte             //
 
         double a=2.5;
         int b=(int)a;//convert to double a to int a

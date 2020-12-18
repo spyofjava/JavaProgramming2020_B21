@@ -78,7 +78,7 @@ public class BulkOperations {
         group2.remove("Mustafa");
         */
 
-        group2.removeAll(  Arrays.asList("Inna", "Irina", "Mustafa", "Sinan") );
+        group2.removeAll( Arrays.asList("Inna", "Irina", "Mustafa", "Sinan"));
 
         System.out.println(group2);
 
