@@ -65,5 +65,19 @@ public class StringUtility {
         return frequency;
     }
 
+    public  void deleteDigits(String e) {
+
+        int i = 0;
+        String result="";
+        while (i < e.length()) {
+            if (!Character.isDigit(e.charAt(i))) {
+                result+=""+e.charAt(i);
+            }
+            i++;
+        }
+        System.out.println(result);
+
+    }
+
 
 }

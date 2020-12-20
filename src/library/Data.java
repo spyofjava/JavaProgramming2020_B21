@@ -13,6 +13,9 @@ public class Data {
         System.out.println("Method 2");
     }
 
-
     public String data3, data4, data5, data6;
+
+
+
+
 }

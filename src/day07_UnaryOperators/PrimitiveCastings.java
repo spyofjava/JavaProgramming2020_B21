@@ -12,6 +12,7 @@ public class PrimitiveCastings {
         long l=100;
         short s= (short)l;
 
+
         double f=503.4;
         float j= (float) f;
 
