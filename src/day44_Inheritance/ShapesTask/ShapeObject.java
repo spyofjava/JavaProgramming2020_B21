@@ -7,14 +7,17 @@ public class ShapeObject {
         Circle circle = new Circle(3);
         Rectangle rectangle = new Rectangle(3,5);
         Square square = new Square(3);
+        Cube cube=new Cube(5);
 
         System.out.println(circle);
         System.out.println(rectangle);
         System.out.println(square);
+        System.out.println(cube);
 
         System.out.println(circle.calcArea());
         System.out.println(rectangle.calcArea());
         System.out.println(square.calcArea());
+        System.out.println(cube.calcArea());
 
 
 

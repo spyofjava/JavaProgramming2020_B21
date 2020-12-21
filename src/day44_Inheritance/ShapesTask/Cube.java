@@ -1,21 +1,25 @@
 package day44_Inheritance.ShapesTask;
 
-public class Cube extends Shape {
+public final class Cube extends Shape{
 
     public double side;
 
     public Cube(double side) {
+        super("Cube");
         this.side = side;
-        setInfo("Cube");
+
     }
 
     @Override
     public double calcArea() {
-        Square square = new Square(side);// one square of the cube
-        double area = square.calcArea();//area of one square
-        return area * 6;
+        //   Square square = new Square(side); // one square of the cube
+        //   double area = square.calcArea(); // are of one square
+        return  side * side * 6 ;
     }
 
+
+
+//============OR ===============
 
 //    @Override
 //    public double calcArea() {
@@ -24,6 +28,6 @@ public class Cube extends Shape {
 
     @Override
     public double calcPerimeter() {
-        return super.calcPerimeter();
+        return side*12;
     }
 }
