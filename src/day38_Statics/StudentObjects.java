@@ -7,6 +7,7 @@ public class StudentObjects {
         CybertekSdudent student1 = new CybertekSdudent();
 
         student1.setInfo("Ayse",21,5,'F');
+        student1.study();
 
         CybertekSdudent student2 = new CybertekSdudent();
 

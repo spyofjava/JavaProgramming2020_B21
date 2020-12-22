@@ -2,12 +2,12 @@ package day38_Statics;
 
 public class CybertekSdudent {
 
-    public String name;
-    public int age,  groupNumber;
-    public char gender;
+    public String name;            //
+    public int age,  groupNumber;  //   =====> INSTANCE VARIABLE
+    public char gender;            //
 
-    public static String schoolName = "Cybertek School";
-    public static boolean isOnlineStudent = true;
+    public static String schoolName = "Cybertek School";  //  ====>  STATIC VARIABLE
+    public static boolean isOnlineStudent = true;         //  ====>    "    "
 
 
     public void setInfo(String name, int age,int groupNumber,char gender){
@@ -34,6 +34,7 @@ public class CybertekSdudent {
                 ", groupNumber=" + groupNumber +
                 ", gender=" + gender +
                 ", isOnline: "+isOnlineStudent+
+                ",School Name: "+schoolName+
                 '}';
     }
 
