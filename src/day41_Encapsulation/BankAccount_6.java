@@ -1,6 +1,6 @@
 package day41_Encapsulation;
 ///////////////////////////////////////  ----  6  ----  /////////////////////////
-public class BankAccount {
+public class BankAccount_6 {
 
     public final static String bankName = "Bank Of America";
 
@@ -10,7 +10,7 @@ public class BankAccount {
     private int accountNumber;
     private double balance;
 
-    public BankAccount(String firstName, String lastName, int accountNumber){
+    public BankAccount_6(String firstName, String lastName, int accountNumber){
         this.firstName = firstName;
         this.lastName = lastName;
         setAccountHolder(firstName, lastName);

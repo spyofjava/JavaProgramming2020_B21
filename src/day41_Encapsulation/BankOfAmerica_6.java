@@ -1,10 +1,10 @@
 package day41_Encapsulation;
 ///////////////////////////////////////  ----  6  ----  /////////////////////////
-public class BankOfAmerica {
+public class BankOfAmerica_6 {
 
     public static void main(String[] args) {
 
-        BankAccount obj1 = new BankAccount("Josh", "Jones", 123456);
+        BankAccount_6 obj1 = new BankAccount_6("Josh", "Jones", 123456);
 
         System.out.println( obj1.getAccountHolder());
         System.out.println( obj1.getBalance()  );
@@ -18,7 +18,7 @@ public class BankOfAmerica {
         obj1.availableBalance();
 
         // BankAccount.bankName = "Capital One";
-        System.out.println(   BankAccount.bankName );
+        System.out.println(   BankAccount_6.bankName );
 
     }
 

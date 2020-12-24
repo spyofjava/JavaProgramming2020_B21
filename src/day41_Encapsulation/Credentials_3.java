@@ -1,6 +1,6 @@
 package day41_Encapsulation;
 ///////////////////////////////////////  ----  3  ----  /////////////////////////
-public class Credentials {
+public class Credentials_3 {
 
     private String userName = "cybertek";
     private double passWord = 1234;

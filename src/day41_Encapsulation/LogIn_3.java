@@ -1,10 +1,10 @@
 package day41_Encapsulation;
 ///////////////////////////////////////  ----  3  ----  /////////////////////////
-public class LogIn {
+public class LogIn_3 {
 
     public static void main(String[] args) {
 
-        Credentials obj = new Credentials();
+        Credentials_3 obj = new Credentials_3();
 
         // System.out.println( obj.userName );
         //  obj.userName = "ABC";
