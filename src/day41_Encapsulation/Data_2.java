@@ -1,6 +1,6 @@
 package day41_Encapsulation;
 ///////////////////////////////////////  ----  2  ----  /////////////////////////
-public class Data {
+public class Data_2 {
 
     public static String publicVariable = "A";
     private static String privateVariable = "B";
@@ -8,7 +8,7 @@ public class Data {
 
     // protected static String protectedVariable = "D";
 
-    Data(){
+    Data_2(){
 
     }
 
