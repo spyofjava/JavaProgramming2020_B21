@@ -1,6 +1,6 @@
 package day41_Encapsulation;
 ///////////////////////////////////////  ----  5  ----  /////////////////////////
-public class Circle {
+public class Circle_5 {
 
     private double radius, diameter, area, perimeter;
 
@@ -11,7 +11,7 @@ public class Circle {
         // PI = 3.5; // final cannot be changed
     }
 
-    public Circle(double radius) {
+    public Circle_5(double radius) {
         this.radius = radius;
         diameter = radius * 2;
         area = calculateArea();

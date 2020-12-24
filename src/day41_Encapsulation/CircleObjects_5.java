@@ -1,10 +1,10 @@
 package day41_Encapsulation;
 ///////////////////////////////////////  ----  5  ----  /////////////////////////
-public class CircleObjects {
+public class CircleObjects_5 {
 
     public static void main(String[] args) {
 
-        Circle c1 = new Circle(4);
+        Circle_5 c1 = new Circle_5(4);
 
         // System.out.println(c1.area);
         System.out.println(c1.getDiameter());
