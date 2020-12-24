@@ -7,11 +7,6 @@ public class Credentials_3 {
 
 
 
-
-
-
-
-
     public String getUserName() {
         return userName;
     }
