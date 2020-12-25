@@ -6,15 +6,17 @@ public class LogIn_3 {
 
         Credentials_3 obj = new Credentials_3();
 
-         System.out.println( obj.userName );
-        //  obj.userName = "ABC";
+        // System.out.println( obj.userName );  //==>  error
+        //  obj.userName = "ABC";   //==>  error
         // System.out.println( obj.userName );
 
-      //  System.out.println( obj.getUserName()  );
+       // System.out.println( obj.getUserName()  );
 
        // System.out.println( obj.getPassWord() );
 
-        //  obj.getPassWord() = 1233456;  Read ONLY
+         // obj.getPassWord() = 1233456;  //Read ONLY
+        //obj.setPassWord(123456);
+        //System.out.println(obj.getPassWord());
 
         //   obj.userName = "HI";
 
