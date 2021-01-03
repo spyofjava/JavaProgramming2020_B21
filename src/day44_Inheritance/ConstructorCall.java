@@ -19,12 +19,12 @@ class B extends A{
 public class ConstructorCall extends A{
 
     public ConstructorCall(){
-        //super(); A B
-        System.out.println("C");
+        super(); //A B
+        //System.out.println("C");
     }
 
     public static void main(String[] args) {
-        new B();
+        //new B();
         new ConstructorCall();
     }
 
