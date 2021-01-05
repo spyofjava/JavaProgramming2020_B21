@@ -11,8 +11,8 @@ class A{
 class B extends A{
 
     public B(){// A B
-        //super();
-        System.out.println("B");
+        super();
+        //System.out.println("B");
     }
 }
 

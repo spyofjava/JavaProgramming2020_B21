@@ -15,7 +15,7 @@ public class Car {
     }
 
     public void start(){
-        System.out.println("Inset the key and twist ignition key to start");
+        System.out.println("Insert the key and twist ignition key to start");
     }
 
     @Override

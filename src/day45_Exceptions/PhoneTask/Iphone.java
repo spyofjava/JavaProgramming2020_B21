@@ -1,0 +1,52 @@
+package day45_Exceptions.PhoneTask;
+
+public class Iphone extends Phone {
+
+    public Iphone(String model, double price) {
+        super("Iphone", model, "USA", price);
+    }
+
+    //we dont need call and text method!!!!!
+
+
+    //NOW WE'LL USE OVERLOADIN METHOD FOR THE FACETIME
+    public void faceTime(long number){
+        System.out.println(brand+" "+model+" is face timing with "+number);
+    }
+
+
+    public void faceTime(String email){
+        System.out.println(brand+" "+model+" is face timing with "+email);
+    }
+
+    public void faceTime(long number1,long number2){
+        faceTime(number1);
+        faceTime(number2);
+    }
+
+    public void faceTime(long number1,long number2,long number3){
+        faceTime(number1);
+        faceTime(number2);
+        faceTime(number3);
+    }
+
+    public void faceTime(String email1, String email2){
+        faceTime(email1);
+        faceTime(email2);
+    }
+
+
+    public void faceTime(String email1, String email2, String email3){
+        faceTime(email1);
+        faceTime(email2);
+        faceTime(email3);
+    }
+}
+/*
+create the following subclasses of phone:
+                        1. iPhone
+                        2. Samsung
+                        3. Nokia
+    create constructors in each sub class that can initialize the instance variables
+
+ */
