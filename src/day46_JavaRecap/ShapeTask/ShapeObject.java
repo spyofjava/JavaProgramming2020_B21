@@ -10,6 +10,10 @@ public class ShapeObject {
         System.out.println(circle1.area());
         System.out.println(circle1.perimeter());
         System.out.println(circle1.toString());
+        System.out.println();
+        circle1.setR(5);
+
+
 
 
 
