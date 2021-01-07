@@ -24,6 +24,9 @@ public class CarMax {
         System.out.println("============================");
 
 
+        bmw.autopark();
+
+        tesla.autopilot();
 
     }
 
