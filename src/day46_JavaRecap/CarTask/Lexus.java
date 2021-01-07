@@ -1,6 +1,15 @@
 package day46_JavaRecap.CarTask;
 
-public class Lexus {
+public final class Lexus extends Car{
+
+    public Lexus( String model, String color, int year, double price) {
+        super("Lexus", model, color, year, price);
+    }
+
+    @Override
+    public void start() {
+        System.out.println("starting "+brand+" "+model+" by inserting the key");
+    }
 }
 /*
 2. create the following sub classes of Car:

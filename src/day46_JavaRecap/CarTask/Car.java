@@ -22,7 +22,7 @@ public class Car {
         }
 
         if (price<0) {
-            throw new RuntimeException("Car price can't be negative");
+            throw new RuntimeException("Car price can't be negative or zero "+price);
 
         }
 

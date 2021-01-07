@@ -1,6 +1,16 @@
 package day46_JavaRecap.CarTask;
 
-public class Mercedes {
+public class Mercedes extends Car{
+
+    public Mercedes( String model, String color, int year, double price) {
+        super("Mercedes", model, color, year, price);
+    }
+
+    public void start(){
+        System.out.println("starting "+brand+" "+model+" by pushing start button");
+    }
+
+
 }
 /*
 2. create the following sub classes of Car:
