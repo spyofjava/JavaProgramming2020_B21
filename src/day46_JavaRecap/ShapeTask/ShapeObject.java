@@ -8,6 +8,7 @@ public class ShapeObject {
         System.out.println(circle1.getR());
         System.out.println(circle1.getD());
         System.out.println(circle1.area());
+        System.out.println(circle1.perimeter());
 
 
     }
