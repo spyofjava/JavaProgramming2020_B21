@@ -13,7 +13,7 @@ public class ShapeObject {
         System.out.println();
         circle1.setR(5);
         System.out.println(circle1.area());
-
+        System.out.println(circle1.perimeter());
 
 
 
