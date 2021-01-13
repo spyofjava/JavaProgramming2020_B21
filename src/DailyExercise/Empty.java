@@ -23,21 +23,14 @@ public class Empty {
 
 
 
-        /*
+
         for (int x = 0; x < 6; x++) {
 
-            for (int y = 0; y < 20; y++) {
 
-                if (y==(x-2)*(x-2)-4){
-                    System.out.println("*");
-                    break;
-                }
-                Thread.sleep(100);
-            }
         }
 
 
-         */
+
 
     }
 
