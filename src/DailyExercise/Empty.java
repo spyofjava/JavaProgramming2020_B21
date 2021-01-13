@@ -32,7 +32,7 @@ public class Empty {
                     System.out.println("*");
                     break;
                 }
-
+                Thread.sleep(100);
             }
         }
 
