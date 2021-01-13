@@ -5,18 +5,16 @@ public class Empty {
     public static void main(String[] args) throws InterruptedException {
 
 
-        for (int i = 0; i < 10; i++) {
-            if (i==3){
-                System.out.print(true);
-break;
-            }else {
-                System.out.print("*");
+        for (int i = 0; i <10 ; i++) {
+            for (int j = -80; j <= i ; j++) {
+                if (i!=j*j){
+                    System.out.print(" ");
+                }else {
+                    System.out.print("*");
+                }
             }
+            System.out.println();
         }
-
-
-        //    0
-
 
 
 
