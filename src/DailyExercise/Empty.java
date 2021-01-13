@@ -26,7 +26,10 @@ public class Empty {
 
         for (int x = 0; x < 6; x++) {
 
+            for (int y = 0; y < 20; y++) {
 
+
+            }
         }
 
 
