@@ -5,9 +5,9 @@ public class Empty {
     public static void main(String[] args) throws InterruptedException {
 
 
-        for (int i = 0; i <10 ; i++) {
-            for (int j = -80; j <= i ; j++) {
-                if (i!=j*j){
+        for (int i = 100; i >=0 ; i--) {
+            for (int j = -50; j <= i ; j++) {
+                if (i!=j){
                     System.out.print(" ");
                 }else {
                     System.out.print("*");

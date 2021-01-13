@@ -4,7 +4,7 @@ public class Empty2 {
 
     public static void main(String[] args) throws InterruptedException {
 
-        for (int x = 0; x <40 ; x++) {
+        for (int x = 40; x >=-100; x--) {
             //location(x,(x-2)*(x-2)-4);
             location(x,x);
         }
