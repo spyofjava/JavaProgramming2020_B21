@@ -10,12 +10,20 @@ public class Test_2 {
         Data_2 obj = new Data_2();
         obj.publicMethod();
 
+
+
 // =====  or ====
         Data_2.publicMethod();
          // Data_2.privateMethod();
         Data_2.defaultMethod();
 
+        System.out.println("====================");
+        Data_2.publicMethod();
+
+
     }
+
+
 
 }
 
