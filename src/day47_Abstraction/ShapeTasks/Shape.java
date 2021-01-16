@@ -8,8 +8,8 @@ public abstract class Shape {  // not concrete
         this.name = name;
     }//===> Constructor with parameter
 
-    public abstract double area();
-    public abstract double perimeter();
+    public abstract double area();//----> abstract method
+    public abstract double perimeter();//----> abstract method
 
 
 
