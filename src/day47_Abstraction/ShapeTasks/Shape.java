@@ -6,7 +6,7 @@ public abstract class Shape {  // not concrete
 
     public Shape(String name) {
         this.name = name;
-    }
+    }//===> Constructor with parameter
 
     public abstract double area();
     public abstract double perimeter();
