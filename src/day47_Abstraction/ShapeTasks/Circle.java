@@ -8,12 +8,12 @@ public class Circle extends Shape {
     public Circle(double radius) {
         super("Circle");
         this.radius = radius;
-    }
+    } // ------- > Constructor that it inherites
 
     @Override
     public double area() {
         return radius * radius * PI;
-    }
+    } // ------>
 
     @Override
     public double perimeter() {
