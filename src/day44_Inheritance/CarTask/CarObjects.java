@@ -1,7 +1,5 @@
 package day44_Inheritance.CarTask;
 
-import day39_StaticBlock.Test;
-
 public class CarObjects {
     public static void main(String[] args) {
 

@@ -11,7 +11,7 @@ import static library.Data.*;
 
 
 
-public class Test {
+public class StaticBlockTest {
 
     public static void main(String[] args) {
 
