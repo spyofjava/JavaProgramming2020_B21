@@ -21,6 +21,9 @@ public class CircleObject {
 
         circle1.equals(circle2);
 
+        //System.out.println(new Circle().PI);//--->if it is instance variable
+        System.out.println(Circle.PI); //-->if it is static variable
+
 
     }
 
