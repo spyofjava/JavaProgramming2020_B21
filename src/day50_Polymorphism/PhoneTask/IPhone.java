@@ -1,13 +1,15 @@
 package day50_Polymorphism.PhoneTask;
 
-public class IPhone extends Phone implements AppleApps {
+public final class IPhone extends Phone implements AppleApps{
 
-    public IPhone(String brand, String model, String size, String color, double price) {
+
+    public IPhone( String model, String size, String color, double price) {
         super("Apple", model, size, color, price);
-        if (price>1500){
-            throw  new RuntimeException("Invalid Price, Iphone' price cannot more than 1500");
+        if(price> 1500){
+            throw new RuntimeException("Invalid Price, Iphone' price cannot more than $1500");
         }
     }
+
 
     @Override
     public void downloadApp() {
@@ -24,8 +26,20 @@ public class IPhone extends Phone implements AppleApps {
         System.out.println("Iphone is calling");
     }
 
-
+    @Override
+    public String toString() {
+        return "IPhone{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", size='" + size + '\'' +
+                ", color='" + color + '\'' +
+                ", price=" + price +
+                ", OS='" + OS + '\'' +
+                '}';
+    }
 }
+
+// Iphone  Phone  AppleApps
 /*
 5. create a class named iPhone that can inherit from AppleApp and Phone
             actions: texting(), calling(), faceTiming()
