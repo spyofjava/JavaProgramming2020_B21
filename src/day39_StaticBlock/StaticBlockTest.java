@@ -9,8 +9,6 @@ import static library.Data.data2;
 
 import static library.Data.*;
 
-
-
 public class StaticBlockTest {
 
     public static void main(String[] args) {
