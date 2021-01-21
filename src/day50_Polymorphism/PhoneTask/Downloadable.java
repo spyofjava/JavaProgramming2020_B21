@@ -1,6 +1,7 @@
 package day50_Polymorphism.PhoneTask;
 
-public abstract interface Downloadable {
+public interface Downloadable {
+
      void downloadApp();
 
 }
