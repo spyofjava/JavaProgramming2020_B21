@@ -7,7 +7,7 @@ public class MultiCatchBlock {
     public static void main(String[] args) {
 
         try {
-            System.out.println(25/0);//=====>Aritmetic Exception
+            //System.out.println(25/0);//=====>Aritmetic Exception
         }catch (NoSuchElementException e){
             System.out.println("No such Element Exception");
         }catch (ClassCastException e){

@@ -18,7 +18,7 @@ public class ExceptionHandling {
 
 
         try {
-            System.out.println(100/0);
+           // System.out.println(100/0);
         }catch (ArithmeticException e){ //you can write RuntimeException inside the parenthesis
             System.out.println("Unchecked exception is occured"+e.getMessage());
             e.printStackTrace();//if you add this step ,you can see the error message
