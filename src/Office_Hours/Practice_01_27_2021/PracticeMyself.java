@@ -37,5 +37,6 @@ public class PracticeMyself {
         list.forEach(p->{ });// variable are final in lambda
 
 
+
     }
 }
