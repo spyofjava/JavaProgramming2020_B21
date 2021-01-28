@@ -1,5 +1,9 @@
 package Office_Hours.Practice_01_27_2021;
 
+import day42_Inheritance.AnimalTask.Animal;
+import day42_Inheritance.AnimalTask.Cat;
+import day45_Exceptions.PhoneTask.*;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -8,37 +12,46 @@ public class PracticeMyself {
 
     public static void main(String[] args) {
 
-        ArrayList<Integer> list= new ArrayList<>();
+        Phone [] phones = {
+                new Iphone("12 pro", 1100),  new Samsung("S20", 1000)
+                , new Nokia("N95", 200), new HuaWei("meta 40", 100),
+                new HuaWei("nova 7", 100),new Iphone("11 pro", 1100),
+                new Iphone("12 pro", 1100), new Iphone("12 pro", 1100),
+                new Samsung("S20", 1000), new Samsung("S20", 1000),
+                new Samsung("S20", 1000),new Nokia("N95", 200),
+                new Nokia("N95", 200), new Iphone("12 pro", 1100),
+                new Samsung("S20", 1000), new Nokia("N95", 200),
+                new Nokia("N95", 200), new Nokia("N95", 200),
+                new Nokia("N95", 200), new Iphone("11 pro", 1100),
+                new Iphone("12 pro", 1100), new Iphone("12 pro", 1100)
+        };
 
-        list.add(10);
-        list.addAll(Arrays.asList(20,30,40,50,60));
-        System.out.println(list.size());
-        System.out.println(list);
+        int countIphone=0;
+        int countNokia=0;
+        int countSamsung=0;
+        int countHuaWei=0;
 
-        list.remove(Integer.valueOf(40));
-        System.out.println(list.size());
-        System.out.println(list);
+        for (Phone each:phones) {
+            if (each instanceof Iphone) {
+                countIphone++;
+            } else if (each instanceof Samsung) {
+                countSamsung++;
+            } else if (each instanceof Nokia) {
+                countNokia++;
+            } else if (each instanceof HuaWei) {
+                countHuaWei++;
+            }
+        }
+            System.out.println("countIphone = " + countIphone);
+            System.out.println("countSamsung = " + countSamsung);
+            System.out.println("countHuaWei = " + countHuaWei);
+            System.out.println("countNokia = " + countNokia);
 
-        list.set(2,300);
-        System.out.println(list);
+        Animal animal=new Cat("alvin","breed",'F',2,"gray","small");
 
-        boolean r= list.contains(500);
+        System.out.println(animal instanceof Cat);
 
-        System.out.println(r);
-
-        Collections.swap(list,2,0);
-
-        System.out.println(list);
-
-        int count = Collections.frequency(list,50);
-
-        System.out.println(count);
-
-
-        list.forEach(p-> Integer.valueOf(2));// variable are final in lambda
-
-        System.out.println(list);
-//integer
 
     }
+
 }
