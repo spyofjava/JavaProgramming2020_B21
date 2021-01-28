@@ -53,7 +53,7 @@ public class PracticeMyself {
 
         System.out.println(animal.age);
         System.out.println(animal.toString());
-
+        System.out.println(phones.toString());
     }
 
 }
