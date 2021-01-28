@@ -34,10 +34,11 @@ public class PracticeMyself {
 
         System.out.println(count);
 
+
         list.forEach(p-> Integer.valueOf(2));// variable are final in lambda
 
         System.out.println(list);
-
+//integer
 
     }
 }
