@@ -34,6 +34,7 @@ public class PracticeMyself {
 
         System.out.println(count);
 
+        list.forEach(p->{ });
 
     }
 }
