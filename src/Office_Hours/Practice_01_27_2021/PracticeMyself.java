@@ -34,7 +34,8 @@ public class PracticeMyself {
 
         System.out.println(count);
 
-        list.forEach(p->{ });
+        list.forEach(p->{ });// variable are final in lambda
+
 
     }
 }
