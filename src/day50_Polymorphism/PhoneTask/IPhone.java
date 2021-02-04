@@ -40,9 +40,3 @@ public final class IPhone extends Phone implements AppleApps{
 }
 
 // Iphone  Phone  AppleApps
-/*
-5. create a class named iPhone that can inherit from AppleApp and Phone
-            actions: texting(), calling(), faceTiming()
-            if the price of Iphoen is more than 1500, the system should throw an exception with a message of:
-                    Invalid Price, Iphone' price cannot more than 1500
- */
