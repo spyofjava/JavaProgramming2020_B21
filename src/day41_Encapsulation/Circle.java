@@ -1,6 +1,6 @@
 package day41_Encapsulation;
-///////////////////////////////////////  ----  5  ----  /////////////////////////
-public class Circle_5 {
+
+public class Circle {
 
     private double radius, diameter, area, perimeter;
 
@@ -8,10 +8,10 @@ public class Circle_5 {
 
     static{
         PI = Math.PI;
-        // PI = 3.5; // final cannot be changed
+       // PI = 3.5; // final cannot be changed
     }
 
-    public Circle_5(double radius) {
+    public Circle(double radius) {
         this.radius = radius;
         diameter = radius * 2;
         area = calculateArea();
@@ -57,11 +57,16 @@ Task:
 	create a custom class called Circle
 		private variables:
 			radius, diameter, PI, area, perimeter
+
 		add a constructor to set all fields
+
 		generate getter for all private fields
+
 		private methods:
 			calculateArea, calculatePerimeter
+
 		public methods:
 			toString
 			equals(): accepts a circle object and returns true if the given argument circle is equal to the current circle object
+
  */

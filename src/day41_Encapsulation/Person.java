@@ -1,15 +1,15 @@
 package day41_Encapsulation;
-///////////////////////////////////////  ----  4  ----  /////////////////////////
+
 import java.time.LocalDate;
 
-public class Person_4 {
+public class Person {
 
     private String name;
     private int age;  // final means constant
     private final char gender; // final means constant
     private final LocalDate BOD; // final means constant
 
-    public Person_4(String name, int age, char gender, LocalDate BOD) {
+    public Person(String name, int age, char gender, LocalDate BOD) {
         this.name = name;
         this.age = age;
         this.gender = gender;

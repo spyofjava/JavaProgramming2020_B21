@@ -1,12 +1,12 @@
 package day41_Encapsulation;
-///////////////////////////////////////  ----  1  ----  /////////////////////////
-public class Item_1 {
+
+public class Item {
 
     public String name;
     public int quantity;
     public double unitPrice;
 
-    public Item_1(String name, int quantity, double unitPrice) {
+    public Item(String name, int quantity, double unitPrice) {
         this.name = name;
         this.quantity = quantity;
         this.unitPrice = unitPrice;
@@ -26,6 +26,20 @@ public class Item_1 {
     }
 
 
-
-
 }
+
+/*
+create a class called Item
+			instance variables:
+				name, unitPrice, quantity
+
+			add a constructor that can initialize the fields
+
+			instance methods:
+				calcCost(): returns the total cost as double
+
+							hint: totalCost = quantity * unitPrice
+
+				toString(): returns the name, unit price, quantity and total cost info as calculated by calcCost()
+
+ */
