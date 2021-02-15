@@ -1,6 +1,6 @@
 package day41_Encapsulation;
 
-public class LogIn {
+public class CredentialObject {
 
     public static void main(String[] args) {
 
