@@ -17,18 +17,24 @@ public class Data {
         System.out.println("Public Method");
     } //----line 5
 
-    private static void privateMethod(){
-        System.out.println("private Method");
+    private static String privateMethod(){
+        return ("private Method");
     }//----line 6
 
     static void defaultMethod(){
         System.out.println("default Method");
     }//----line 7
 
+    protected static  void protectedMethod(){
+        System.out.println ("Protected Method");
+    }//--- line 9
 
     public String getprivateVariable(){
         return privateVariable;
     }  //----line 8
 
+    public static String getprivateMethod(){
+      return   privateMethod();
+    }
 
 }
