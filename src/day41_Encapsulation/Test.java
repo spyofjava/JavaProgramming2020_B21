@@ -25,11 +25,12 @@ public class Test {
         //----accessing --->default static
         System.out.println("default: "+Data.defaultVariable);
 
+
         //----accessing --->orivate static
        // System.out.println(Data.privateVariable);---> this give us compile time error . we have to use getter setter method to access private variable
-
-        System.out.println("orivate: "+obj.getprivateVariable());  // line 8
+        System.out.println("private: "+obj.getprivateVariable());  // line 8
        // Getter IS NOT TO STATIC WE could call by obj.
+
 
         //----accessing --->public method
         Data.publicMethod();
