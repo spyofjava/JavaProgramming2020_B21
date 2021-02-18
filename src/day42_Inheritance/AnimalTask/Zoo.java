@@ -8,9 +8,9 @@ public class Zoo  {
         System.out.println(tiger);
         tiger.eat("chicken");
         //tiger.meow();
-//        //tiger.bark();
-//        tiger.roar();
-       tiger.hunt();
+        //tiger.bark();
+        tiger.roar();
+        tiger.hunt();
 //
 //        Cat cat = new Cat("Kitty","British fold",'F',1,"White","Small");
 //        System.out.println(cat);

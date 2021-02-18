@@ -20,6 +20,23 @@ public interface InterfaceRules {
 
     public default void m(){ }
 
+     static void mm(){
+
+    }
+
+}
+
+
+class cccc{
+
+    public static void main(String[] args) {
+
+        System.out.println("---------------------");
+        System.out.println(InterfaceRules.a);
+
+
+    }
+
 }
 /*
 Interface: cannot have objects
