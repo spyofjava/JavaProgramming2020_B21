@@ -16,6 +16,7 @@ public class AppleInc { // AppleInc HAS A Tester
 
 
 
+
         Developer developer1 = new Developer("Mini",24,'F', 45, "Senior Developer", "A124");
         developer1.eat();
         developer1.sleep();
