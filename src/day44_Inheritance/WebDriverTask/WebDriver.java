@@ -10,7 +10,7 @@ public class WebDriver {
     }
 
     public void get(String URL){
-        System.out.println("Oppening the default driver");
+        System.out.println("Opening the default driver");
     }
 
     public  void close(){
